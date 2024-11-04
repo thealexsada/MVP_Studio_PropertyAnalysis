@@ -28,7 +28,7 @@ SELECT
     suburb,
     AVG(property_median_value) AS avg_median_value
 FROM
-    dbo.NSW_PropertyMedainValue
+    dbo.NSW_PropertyMedianValue
 WHERE
     property_median_value IS NOT NULL
 GROUP BY
@@ -38,7 +38,7 @@ SELECT
     postcode,
     AVG(property_median_value) AS avg_median_value
 FROM
-    dbo.NSW_PropertyMedainValue
+    dbo.NSW_PropertyMedianValue
 WHERE
     property_median_value IS NOT NULL
 GROUP BY
@@ -49,7 +49,7 @@ SELECT
     postcode,
     AVG(property_median_value) AS avg_median_value
 FROM
-    dbo.NSW_PropertyMedainValue
+    dbo.NSW_PropertyMedianValue
 WHERE
     property_median_value IS NOT NULL
 GROUP BY
